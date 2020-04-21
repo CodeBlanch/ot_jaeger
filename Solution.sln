@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.Exporter.AspNet.Win", "AspNet\OpenTelemetry.Exporter.AspNet.Win.csproj", "{9A4E3A68-904B-4835-A3C8-F664B73098DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1704B00B-05D2-41F0-8F0E-486C2C58DB4A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A4E3A68-904B-4835-A3C8-F664B73098DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4E3A68-904B-4835-A3C8-F664B73098DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4E3A68-904B-4835-A3C8-F664B73098DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4E3A68-904B-4835-A3C8-F664B73098DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C831DF6F-52DC-4A24-90E9-81DA862A6B30}
+	EndGlobalSection
+EndGlobal
